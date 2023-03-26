@@ -1,8 +1,8 @@
 function ImageItem({image}) {
     console.log(image)
-  return <div className="p-2 rounded-2xl bg-gray-300 m-1">
-    <img className="w-25" src={image.urls.small} alt={image.alt_description} />
-    <p className="">{image.alt_description}</p>
+  return <div className=" m-3 rounded-xl shadow-lg cursor-pointer shadow-black-100 hover:shadow-indigo-500/100">
+    <img className="h-72 w-full object-cover rounded-t-xl" src={image.urls.small} alt={image.alt_description} />
+    <p className="text-xs p-5 text-right italic">{image.alt_description}</p>
   </div>
 }
 

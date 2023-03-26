@@ -3,28 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-  /* html {
-    @apply text-gray-600
+  .App {
+    @apply p-5
   }
-
-  p {
-    @apply p-3 bg-gray-100
-  } */
 
 }
-
-/* Tailwind'e sınıf dahil ettik. */
-/* @layer utilities {
-  .text-brand {
-    font-size: 24px;
-    color: rgb(244, 94, 94);
-    padding: 1rem;
-  }
-}
-
-@layer components {
-  .input {
-    @apply bg-blue-200 text-black p-1
-  }
-} */
-
