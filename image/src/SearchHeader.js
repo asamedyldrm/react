@@ -17,11 +17,9 @@ function SearchHeader({ search }) {
     <div className="SearchHeader">
       <form onSubmit={handleFormSubmit}>
         <label>
-          Bi şeyler Ara!
-          <i className="fa-solid fa-magnifying-glass"></i>
+        <i className="fa-solid fa-magnifying-glass"></i><h4 className="">Bi şeyler Ara!</h4>
         </label>
-        <input value={valueInput} onChange= {handleChange} />
-        <div>{valueInput}</div>
+        <input className="input" value={valueInput} onChange= {handleChange} />
       </form>
     </div>
   );
