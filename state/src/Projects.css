@@ -1,0 +1,31 @@
+.ProjectContainer {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .ProjectList div{
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 17px -2px rgb(143, 143, 143);
+  }
+  
+  .ProjectList div:hover{
+    background-color: rgb(245, 234, 197);
+  }
+  
+  .ProjectList a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .ProjectList a:hover{
+    color: #1659e1;
+  }
+  
+  img {
+    width: 25rem;
+    border-radius: 1rem;
+  }

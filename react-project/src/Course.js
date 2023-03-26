@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Course = (props) => {
-    const {title, description} = props;
+const Course = ({image, title, description}) => {
+
   return (
     <div>
-        <div>{title}</div>
-        <div>{description}</div>
+        <img src={image} alt="" />
+        <div className='title'>{title}</div>
+        <div className='text'>{description}</div>
     </div>
   )
 }
