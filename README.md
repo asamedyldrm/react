@@ -1,2 +1,2 @@
-# react
+# React
 All about react
